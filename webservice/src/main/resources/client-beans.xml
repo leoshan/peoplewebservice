@@ -13,7 +13,7 @@
     <bean id="clientPeopleFactory" class="org.apache.cxf.jaxws.JaxWsProxyFactoryBean">
         <property name="serviceClass" value="com.openroom.webservice.PeopleWebService"/>
 <!--    <property name="address" value="http://localhost:8080/openroom/services/PeopleWebService"/> -->
-        <property name="address" value="http://leoopen.elasticbeanstalk.com/services/PeopleWebService"/>
+        <property name="address" value="http://leoopen-env.ap-southeast-1.elasticbeanstalk.com/services/PeopleWebService"/>
     </bean>
 </beans>
 <!-- END SNIPPET: beans -->
